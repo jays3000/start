@@ -1,0 +1,255 @@
+<html>
+<head>
+<title>ABOUT</title>
+
+<style>
+    
+        body {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+        background-image: url("STB.jpg"); 
+        background-size: cover;
+        background-position: center;
+    }
+    .container{ 
+            height: 100%;
+            
+    }
+    
+    .menu{
+        background: rgba(0, 0, 0, 0.521);
+        text-align: left;
+      
+    }
+    .menu ul{
+        display: inline-flex;
+        margin: 15px;
+    }
+    .menu ul li{
+        list-style: none;
+        margin: -4px 33px;
+        color: #ffffff;
+        cursor: pointer; 
+    }
+     
+    .logo img {
+        width: 150px;
+        margin-top: -2px;
+        margin-left: 29px;
+    }     
+    .active{
+        color:#ff9900 !important;
+    }
+    
+    .Acc-btn{
+        top: 30px;
+        right: 76px;
+        position: absolute;
+        text-decoration: none;
+        border: 2px solid transparent;
+        border-radius:20px;
+        color:#ffffff !important;
+        background-image: linear-gradient(#ff7b0081, #ffe60486),radial-gradient(circle at top left, #c2c524be,#fd9b1ba4);
+        background-origin: border-box;
+        background-clip: content-box, border-box;
+    }
+    
+    .Acc-btn span{
+        display: block;
+        padding: 3px 9px;
+    }
+    
+    
+    .banner{
+        width: 80%;
+        height: 70%;
+        top: 25%;
+        left: 130px;
+        position: absolute;
+        color:#cc9600;
+    }
+    .app-text{
+        width: 50%;
+        float: center;
+    }
+    .app-text h1{
+        font-size:43px;
+        width: 640px;
+        position: relative;
+        margin-left: 40px;
+    }
+    .app-text p{
+        width: 820px;
+        font-size: 25px;
+        margin: 40px 0 40px 50px;
+        line-height: 30px;
+        color: #f7f7f7;
+    }
+    
+    
+    .dropbtn {
+      background-color: #0000;
+      color: white;
+      padding: 15px;
+      font-size: 20px;
+      border: none;
+      cursor: pointer;
+    }
+    
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+    
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      right: 0;
+      background-color: #0000006e;
+      min-width: 150px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    
+    .dropdown-content a {
+      color: black;
+      padding: 12px 13px;
+      text-decoration: none;
+      display: block;
+    }
+    
+    .dropdown-content a:hover {
+      background-color: #f1f1f1;
+      }
+    .dropdown:hover .dropdown-content {
+      display: block;
+      }
+    .dropdown:hover .dropbtn {
+      background-color: #f1db1285;
+    }
+     .menu a {
+      color:#00000000;
+    }
+    .dropdown-content a{
+      color:#000000;
+
+    }
+    * {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+</style>
+</head>
+    <body>
+            <div class="container">
+                    <div class="menu">
+                     <ul>
+                       <li class="logo"><img src="logo.png"></li>
+                       <a href=".HomeRE.html"><li class="dropbtn">Home</li></a>
+                       <a href=".ABOUT.html"><li class="dropbtn"><u class="active"><b>About</b></u></li></a>
+           
+                       <div class="dropdown" style="float:left;">
+                       <button class="dropbtn">&nbsp;&nbsp;&nbsp;We Offer &nbsp;&nbsp; &nbsp;</button>
+                       <div class="dropdown-content">
+                               <a href="#">Books</a>
+                               <a href="#">E-books 2</a>
+                               <a href="#">Audio Books</a>
+                             </div>
+                           </div>
+                       <a href=".CONTACT.html"><li  class="dropbtn">Contact</li></a>
+                      
+                       <li><a href=".html" class="Acc-btn"><span class="dropbtn">Your Account</span></a>
+                       </li>
+                     </ul>
+                </div>
+    </body>
+</html>
+        
